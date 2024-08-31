@@ -33,7 +33,8 @@ nav {
     height: 12vh;
     background-color: rgb(111, 130, 211);
 }
-
+ 
+/* gap itu buat spacing antar item. Kalau di flex */
 .nav-links {
     gap: 2rem;
     list-style: none;
@@ -62,6 +63,120 @@ a:hover {
 .name:hover {
     cursor: default;
 }
+
+/* Mobile Navigation bar */
+
+/* .mobile-nav-bar {
+    display: none;
+}
+
+.mobile-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+} */
+
+/* Section */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10 rem;
+    box-sizing: border-box;
+}
+
+/* .section-container {
+    display: flex;
+} */
+
+/* Profile */
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    /* height: 80vh; */
+}
+
+img {
+    border-radius: 50%;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.text {
+    align-self: center;
+    text-align: center;
+}
+
+.text p {
+    font-weight: 600;;
+}
+
+.paragraf1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.paragraf2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title {
+    font-size: 3rem;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border-color: rgb(53,53,53);
+    background-color: none;
+}
+
+.btn:hover {
+    background-color: rgb(53,53,53);
+    color: white;
+    border-color: white;
+    border-width: 0.1rem;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
 
 /* 
 li {
