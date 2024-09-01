@@ -275,6 +275,7 @@ img {
 .details-container {
     padding: 1.5rem;
     flex: 1;
+    min-width: 220px;
     background-color: white;
     border-radius: 2rem;
     border-color: black;
@@ -305,12 +306,43 @@ img {
 
 
 
-/* Experience */
-/* .experience-details-container {
+/* Skills */
+#skills {
+    position: relative;
+}
 
-} */
+.skill-title {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
 
 
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: left;
+    gap: 0.5rem;
+}
+  
+article .icon {
+    cursor: default;
+}
 /* Projects */
 
 #projects {
@@ -391,6 +423,10 @@ footer, p {
         display: flex;
     }
 
+    #experience,.experience-details-container {
+        margin-top: 2rem;
+    }
+
     #profile, .section-container {
         display: block
     }
@@ -428,9 +464,9 @@ footer, p {
         margin-bottom: 0;
     }
 
-    /* article {
+    article {
         font-size: 1rem;
-    } */
+    }
 
     footer nav {
         height: fit-content;
@@ -449,6 +485,9 @@ footer, p {
         font-size: 1rem;
     }
 
+    .skill-title {
+        font-size: 1.25rem;
+    }
     .name {
         font-size: 1.5rem;
     }
