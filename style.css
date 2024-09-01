@@ -191,7 +191,8 @@ img {
 }
 
 .text p {
-    font-weight: 600;;
+    font-size: 1.5rem;
+    font-weight: 400;;
 }
 
 .paragraf1 {
@@ -282,6 +283,19 @@ img {
     text-align: center;
 }
 
+.details-container p{
+    font-size:0.8rem;
+}
+
+.details-container .committee{
+    font-size: 1rem;
+    color: black;
+}
+
+.details-container .school{
+    font-size: 1rem;
+    color: black;
+}
 
 .pic-container { 
     height: 400px;
@@ -289,6 +303,30 @@ img {
     margin: auto 0;
 }
 
+
+
+/* Experience */
+/* .experience-details-container {
+
+} */
+
+
+/* Projects */
+
+#projects {
+    position: relative;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    /* color: black; */
+}
 
 /* Contact */
 #contact {
@@ -316,28 +354,11 @@ img {
     justify-content: center;
     gap: 0.5rem;
 }
-/* Experience */
-/* .experience-details-container {
 
-} */
-
-
-/* Projects */
-
-#projects {
-    position: relative;
+.contact-info a, .nav-links li a {
+    text-decoration: none;
 }
 
-.project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-}
-
-.project-title {
-    margin: 1rem;
-    /* color: black; */
-}
 
 /* Footer */
 footer {
@@ -350,7 +371,7 @@ footer, p {
 }
 
 /* Media: supaya responsive */
-@media screen and (max-width:1000px){
+@media screen and (max-width:1400px){
     #profile {
         /* height: 83vh; */
         margin-bottom: 6rem;
@@ -361,7 +382,7 @@ footer, p {
     }
 }
 
-@media screen and (max-width:1400px){
+@media screen and (max-width:1200px){
     #nav-bar {
         display: none;
     }
