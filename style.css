@@ -31,7 +31,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 12vh;
-    background-color: rgb(111, 130, 211);
+    /* background-color: rgb(111, 130, 211); */
 }
  
 /* gap itu buat spacing antar item. Kalau di flex */
@@ -254,6 +254,29 @@ img {
     justify-content: center;
     gap: 0.5rem;
 }
+/* Experience */
+/* .experience-details-container {
+
+} */
+
+
+/* Projects */
+
+#projects {
+    position: relative;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    /* color: black; */
+}
+
 
 /* @media screen and (max-width:600px){
 
