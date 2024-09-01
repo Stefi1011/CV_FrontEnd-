@@ -349,9 +349,19 @@ footer, p {
     text-align: center;
 }
 
-/*  */
-
+/* Media: supaya responsive */
 @media screen and (max-width:1000px){
+    #profile {
+        /* height: 83vh; */
+        margin-bottom: 6rem;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1400px){
     #nav-bar {
         display: none;
     }
@@ -359,9 +369,93 @@ footer, p {
     #hamburger-nav {
         display: flex;
     }
+
+    #profile, .section-container {
+        display: block
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    section, .section-container {
+        height: fit-content;
+    }
+    
+    .pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-container {
+        margin-top: 0;
+    }
 }
 
+@media screen and (max-width:600px){
+    #contact, footer {
+        height: 40vh;
+    }
 
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    /* article {
+        font-size: 1rem;
+    } */
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-container, .contact-container, .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info {
+        margin: 0;
+    }
+
+    .contact-info p, .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .paragraf2 {
+        font-size: 1.25rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+
+    .text {
+        text-align: justify;
+    }
+}
 
 /* li {
     justify-content: space-around;
