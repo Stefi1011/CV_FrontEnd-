@@ -147,8 +147,8 @@ a:hover {
 /* Section */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 4%;
+    height: 96%;
     margin: 0 10rem;
     box-sizing: border-box;
 }
@@ -165,7 +165,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 80%;
 }
 
 img {
@@ -365,7 +365,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 70%;
 }
 
 .contact-container {
@@ -394,7 +394,7 @@ article .icon {
 
 /* Footer */
 footer {
-    height: 25vh;
+    height: 25%;
     margin: 0 1rem;
 }
 
@@ -456,11 +456,11 @@ footer, p {
 
 @media screen and (max-width:600px){
     #contact, footer {
-        height: 40vh;
+        height: 40%;
     }
 
     #profile {
-        height: 83vh;
+        height: 83vh
         margin-bottom: 0;
     }
 
